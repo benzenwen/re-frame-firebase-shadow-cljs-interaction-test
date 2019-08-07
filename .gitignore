@@ -1,0 +1,30 @@
+# General
+/*.log
+.*-chrome-profile
+.DS_Store
+.nrepl-port
+.#*
+
+# Shadow-cljs
+/node_modules
+yarn.lock
+.shadow-cljs
+/target
+/public/js
+pom.xml
+
+# Leiningen (for Dirac repl only)
+.lein-repl-history
+out/
+profiles.clj
+
+# Firebase
+.firebase/*
+.firebaserc
+
+# Devops
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+main.tf

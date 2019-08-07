@@ -1,0 +1,31 @@
+{
+  "name": "re-frame-firebase-shadow-cljs-interaction-test",
+  "version": "0.0.1",
+  "description": "debugging firebase, re-frame-firebase, shadow-cljs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benzenwen/re-frame-firebase-shadow-cljs-interaction-test"
+  },
+  "author": {
+    "name": "Ben Wen"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "shadow-cljs watch app;",
+    "release": "shadow-cljs release app;",
+    "server": "shadow-cljs server;",
+    "clean": "rm -rf target; rm -rf public/js"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "firebase": "^5.7.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-flip-move": "^3.0.3",
+    "react-highlight.js": "^1.0.7",
+    "tslib": "1.9.3"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.8.41"
+  }
+}
